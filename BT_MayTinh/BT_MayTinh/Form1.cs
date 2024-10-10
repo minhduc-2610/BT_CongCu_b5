@@ -17,6 +17,30 @@ namespace BT_MayTinh
             InitializeComponent();
         }
 
-        
-    }
+		private void btnThuong_Click(object sender, EventArgs e)
+		{
+			try
+			{
+				// Lấy giá trị từ các TextBox
+				double num1 = double.Parse(txtSoA.Text);
+				double num2 = double.Parse(txtSoB.Text);
+
+				// Kiểm tra chia cho 0
+				if (num2 == 0)
+				{
+					MessageBox.Show("Không thể chia cho 0.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+					return;
+				}
+
+				double result = num1 / num2;
+
+				txtKQ.Text = result.ToString();
+			}
+			catch (FormatException)
+			{
+				MessageBox.Show("Vui lòng nhập số hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+
+		}
+	}
 }
