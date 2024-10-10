@@ -125,6 +125,7 @@
             this.btnHieu.TabIndex = 2;
             this.btnHieu.Text = "Hiệu";
             this.btnHieu.UseVisualStyleBackColor = true;
+            this.btnHieu.Click += new System.EventHandler(this.btnHieu_Click);
             // 
             // btnThuong
             // 
