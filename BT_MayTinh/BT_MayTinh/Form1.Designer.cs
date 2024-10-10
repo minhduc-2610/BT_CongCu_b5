@@ -115,6 +115,7 @@
             this.btnTich.TabIndex = 2;
             this.btnTich.Text = "Tích";
             this.btnTich.UseVisualStyleBackColor = true;
+            this.btnTich.Click += new System.EventHandler(this.btnTich_Click);
             // 
             // btnHieu
             // 
@@ -124,6 +125,7 @@
             this.btnHieu.TabIndex = 2;
             this.btnHieu.Text = "Hiệu";
             this.btnHieu.UseVisualStyleBackColor = true;
+            this.btnHieu.Click += new System.EventHandler(this.btnHieu_Click);
             // 
             // btnThuong
             // 
