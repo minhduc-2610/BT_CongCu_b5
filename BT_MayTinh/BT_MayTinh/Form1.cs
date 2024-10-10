@@ -80,5 +80,30 @@ namespace BT_MayTinh
 			}
 
 		}
-	}
+
+        private void btnTong_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // Lấy giá trị từ các TextBox
+                double num1 = double.Parse(txtSoA.Text);
+                double num2 = double.Parse(txtSoB.Text);
+
+                // Tính tổng
+                double sum = num1 + num2;
+
+                // Hiển thị kết quả
+                txtKQ.Text = "Kết quả: " + sum.ToString();
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Vui lòng nhập số hợp lệ.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private float TinhTong(int a, int b)
+        {
+            return a + b;
+        }
+    }
 }
