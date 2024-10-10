@@ -38,5 +38,19 @@ namespace BT_MayTinh
             }
 
         }
+
+        private void btnHieu_Click(object sender, EventArgs e)
+        {
+            double number1, number2;
+            if (double.TryParse(txtSoA.Text, out number1) && double.TryParse(txtSoB.Text, out number2))
+            {
+                double result = number1 - number2;
+                txtKQ.Text = result.ToString();
+            }
+            else
+            {
+                MessageBox.Show("Vui lòng nhập số hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }
