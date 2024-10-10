@@ -1,0 +1,11 @@
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\bin\Debug\BT_MayTinh.exe.config
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\bin\Debug\BT_MayTinh.exe
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\bin\Debug\BT_MayTinh.pdb
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.csproj.AssemblyReference.cache
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.csproj.SuggestedBindingRedirects.cache
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.Form1.resources
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.Properties.Resources.resources
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.csproj.GenerateResource.cache
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.csproj.CoreCompileInputs.cache
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.exe
+D:\BT_GIT\BT_CongCu_b5\BT_MayTinh\BT_MayTinh\obj\Debug\BT_MayTinh.pdb
