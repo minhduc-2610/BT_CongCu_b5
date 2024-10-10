@@ -115,6 +115,7 @@
             this.btnTich.TabIndex = 2;
             this.btnTich.Text = "Tích";
             this.btnTich.UseVisualStyleBackColor = true;
+            this.btnTich.Click += new System.EventHandler(this.btnTich_Click);
             // 
             // btnHieu
             // 

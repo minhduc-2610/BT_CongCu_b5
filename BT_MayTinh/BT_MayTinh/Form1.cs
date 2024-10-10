@@ -17,6 +17,26 @@ namespace BT_MayTinh
             InitializeComponent();
         }
 
-        
+        private float TinhTich(int a, int b)
+        {
+            return a * b;
+        }
+
+        private void btnTich_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra nếu giá trị nhập là số nguyên
+            if (int.TryParse(txtSoA.Text, out int a) && int.TryParse(txtSoB.Text, out int b))
+            {
+                // Gọi hàm tính tích và hiển thị kết quả
+                float tich = TinhTich(a, b);
+                txtKQ.Text = tich.ToString();
+            }
+            else
+            {
+                // Thông báo nếu nhập không phải số hợp lệ
+                MessageBox.Show("Vui lòng nhập số hợp lệ!", "Lỗi nhập liệu", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
     }
 }
